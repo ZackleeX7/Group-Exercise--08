@@ -1,13 +1,15 @@
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 
-const App = () => {
-  let hello = "Hello World";
+function App() {
   return (
-  <>
-    <div className="text-[25px] bg-blue-500 m-10 p-10 font-serif">
-      {hello}
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <Home />
+      <Footer />
     </div>
-  </>
   );
-};
+}
 
 export default App;
