@@ -17,11 +17,6 @@ function App() {
           {/* Kamu bisa isi teks atau elemen lain di sini */}
         </div>
 
-        <Gen1 />
-        <Gen2 />
-        <Gen3 />
-        <Gen4 />
-
         <Home />
       </main>
 
